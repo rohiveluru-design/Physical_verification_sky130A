@@ -1,0 +1,2 @@
+Completed: xterm -e {ngspice -i "/headless/.xschem/simulations/inverter.spice" -a || sh}
+data:
