@@ -1,15 +1,13 @@
 # Physical_Verification_SKY130A
-![Workshop-Flyer](Resources/Lab1/Workshop-Flyer.jpeg)<br /><br />
+
 This repository contains the documentation of the work done during a five-day physical verification workshop carried out by VSD.
 
 The workshop describes the physical verification process that takes place during an RTL to GDSII flow using Skywater 130nm Technology, including DRC and LVS tests. This helps the participants get ready for the tape out and is particularly helpful for chip fabrication. The workshop assists in locating and fixing violations made during the physical verification stage.
 
-More information about the workshop can be found at [https://www.vlsisystemdesign.com/physical-verification-using-sky130/](https://www.vlsisystemdesign.com/physical-verification-using-sky130/)
+More information about the workshop can be found at 
 
 
 A special thanks to Tim, Kunal, and Sumanto for creating and helping out during this fantastic workshop
-- [R. Timothy Edwards](https://github.com/RTimothyEdwards)
-- [Kunal Ghosh](https://github.com/kunalg123)
 
 ## Index
 * [Chapter 0 - Getting the tools](#Chapter-0---Getting-the-tools)
@@ -28,7 +26,7 @@ To adequately utilize the open source skywater130 pdk and understand the design 
 - ngspice
 - xschem
 - netgen
-![toolchains](Resources/Lab1/toolchains.png)
+
 
 *Note: open_pdk has to be installed last so it can correctly associate the xschem and magic directories.*
 *Note: if the configure step fails during any process, its most likely due to missing additional packages, and they need to be installed (preferably from source) to complete the installation*
@@ -43,8 +41,7 @@ $	 ./configure
 $  make
 $  sudo make install
 ```
-More info can be found at [http://opencircuitdesign.com/magic/index.html](http://opencircuitdesign.com/magic/index.html)
-
+More info can be found at 
 ### Netgen
 Netgen is a tool for comparing netlists, a process known as LVS, which stands for "Layout vs. Schematic" <br /><br />
 Install steps:
@@ -55,7 +52,7 @@ $	./configure
 $  make
 $  sudo make install
 ```
-More info can be found at [http://opencircuitdesign.com/netgen/index.html](http://opencircuitdesign.com/netgen/index.html)
+
 
 ### Xschem
 Xschem is a schematic capture program <br /><br />
@@ -66,13 +63,12 @@ $	./configure
 $  make
 $  sudo make install
 ```
-More info can be found at [http://repo.hu/projects/xschem/index.html](http://repo.hu/projects/xschem/index.html)
 
 ### Ngspice
 ngspice is the open-source spice simulator for electric and electronic circuits.<br /><br />
 Install steps:<br />
 
-After downloading the tarball from [https://sourceforge.net/projects/ngspice/files/](https://sourceforge.net/projects/ngspice/files/) to a local directory, unpack it using:
+After downloading the tarball from  to a local directory, unpack it using:
 ```
  $ tar -zxvf ngspice-37.tar.gz
  $ cd ngspice-37
@@ -82,7 +78,7 @@ After downloading the tarball from [https://sourceforge.net/projects/ngspice/fil
  $ make
  $ sudo make install
 ```
-More info can be found at [https://ngspice.sourceforge.io/index.html](https://ngspice.sourceforge.io/index.html)
+More info can be found at 
 
 Please note that to view the simulation graphs of ngspice, xterm is required and can be installed using.
 ```
@@ -92,7 +88,7 @@ $ sudo apt-get install xterm
 
 ### open_pdk
 
-Open_PDKs is distributed with files that support the Google/SkyWater sky130 open process description [https://github.com/google/skywater-pdk](https://github.com/google/skywater-pdk). Open_PDKs will set up an environment for using the SkyWater sky130 process with open-source EDA tools and tool flows such as magic, qflow, openlane, netgen, klayout, etc.<br /><br />
+Open_PDKs is distributed with files that support the Google/SkyWater sky130 open process description . Open_PDKs will set up an environment for using the SkyWater sky130 process with open-source EDA tools and tool flows such as magic, qflow, openlane, netgen, klayout, etc.<br /><br />
 Install steps:
 ```
 $  git clone git://opencircuitdesign.com/open_pdks
