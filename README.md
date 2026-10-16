@@ -130,7 +130,8 @@ An initial schematic is made by placing components from the open_pdk library<br 
 The required changes to the properties of the device can be made here and will automatically reflect in the layout
 ![xshem_inv](Resources/Lab1/xshem_inv.png)<br /><br />
 Convert the schematic to a symbol
-![xshem_sym](Resources/Lab1/xshem_sym.png)<br /><br />
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/d4bb9be2-b50d-449b-9518-0214760c7b8b" />
+
 Using the symbol, we can create an independent test bench to simulate the circuit
 ![xshem_tb](Resources/Lab1/xshem_tb.png)<br /><br />
 ### Creating and simulating testbench Schematic
