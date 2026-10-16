@@ -339,6 +339,3 @@ The detailed explaination of all the rules can be found at:
 
 
 
-### Workshop Certificate
-
-![Certificate](Resources/VSD_IAT_PV.png)
